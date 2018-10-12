@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.thehood.zohary" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>theHood</name>
+	<description>The Hood</description>
+	<author href="http://theHood.com" email="zoharyandrianome@gmail.com">Zohary Andrianome</author>
+
+	<icon src="www/icon.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon.png" width="128" height="128" density="xhdpi" />
+
+	<preference name="android-targetSdkVersion" value="26" />
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+
+	<preference name="deployment-target" value="7.0" />
+	<preference name="android-minSdkVersion" value="16" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-camera" />
+	<plugin name="cordova-plugin-crosswalk-webview" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-media" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-vibration" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+
+
+	<engine name="ios" />
+	<engine name="android" />
+</widget>
